@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: "IBM Plex Mono", monospace;
+
+  .nav {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
+
+    ul li {
+      display: none;
+    }
+
+    i {
+      width: 18px;
+      height: 12px;
+    }
+  }
+  .header__content {
+    /*  background-color: sandybrown; */
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .content--title {
+      margin-top: 29px;
+      width: 100%;
+      color: #060a24;
+    }
+
+    h1 {
+      line-height: 42px;
+      font-size: 36px;
+      letter-spacing: 0;
+      font-family: "IBM Plex Sans", sans-serif;
+    }
+
+    p {
+      margin-top: 16px;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 14px;
+      letter-spacing: 0;
+      line-height: 22px;
+    }
+
+    button.header__callaction {
+      width: 100%;
+      height: 48px;
+      margin-top: 36px;
+      margin-bottom: 24px;
+      background-color: #00f3bb;
+      text-align: center;
+      box-shadow: none;
+      border: none;
+      cursor: pointer;
+
+      a {
+        color: #060a24;
+        text-decoration: none;
+        font-family: "IBM Plex Mono-Medium", monospace;
+        letter-spacing: 0;
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+  }
+}
+
+main.episodios {
+  position: relative;
+  overflow: hidden;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-right: auto;
+  margin-left: auto;
+
+  .episodios__bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+    transform: skewY(-6deg);
+    transform-origin: top right;
+    z-index: -1;
+  }
+
+  h2 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 42px;
+    color: #ffffff;
+    margin-top: 64px;
+    margin-bottom: 21px;
+  }
+
+  .episodios--pods {
+    display: grid;
+    grid-gap: 11px;
+  }
+  .episodios--pods img {
+    width: 100%;
+  }
+}
