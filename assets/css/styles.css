@@ -144,8 +144,10 @@ main.episodios .episodios--pods {
   grid-gap: 11px;
 }
 
-main.episodios .episodios--pods img {
+main.episodios .episodios--pods iframe {
+  border: 0;
   width: 100%;
+  height: 235px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -209,8 +211,23 @@ main.episodios .episodios--pods img {
     font-size: 18px;
     line-height: 24px;
   }
-  main {
-    display: none;
+  main.episodios h2 {
+    margin-left: 200px;
+    margin-top: 186px;
+  }
+  .episodios--pods {
+    margin-top: 26px;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+        grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
+  .episodios--pods iframe {
+    border: 0;
+    width: 500px;
+    height: 232px;
+    margin-bottom: 72px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
