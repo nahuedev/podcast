@@ -221,6 +221,44 @@ main.episodios {
 }
 
 
+.temas{
+  width: 100%;
+  margin-top: 48px;
+
+ .temas--title{
+      margin-bottom: 37px;
+      width: 288px;
+      height: 84px;
+      margin-left: 16px;
+      margin-right: 16px;
+
+      h2{
+         font-family: "IBM Plex Sans", sans-serif;
+         font-size: 36px;
+         letter-spacing: 0;
+         line-height: 42px;
+         font-weight:400; 
+      }
+ }
+
+.temas--iconos{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        grid-row-gap:65px;
+
+        img{
+          margin-bottom: 13px;
+        }
+        p{
+          font-size: 24px;
+          letter-spacing: 0;
+          text-align: center;
+        }
+}
+
+}
+
 
 
 

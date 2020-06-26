@@ -216,6 +216,46 @@ main.episodios .episodios--pods iframe {
   width: 100%;
 }
 
+.temas {
+  width: 100%;
+  margin-top: 48px;
+}
+
+.temas .temas--title {
+  margin-bottom: 37px;
+  width: 288px;
+  height: 84px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.temas .temas--title h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 42px;
+  font-weight: 400;
+}
+
+.temas .temas--iconos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  text-align: center;
+  grid-row-gap: 65px;
+}
+
+.temas .temas--iconos img {
+  margin-bottom: 13px;
+}
+
+.temas .temas--iconos p {
+  font-size: 24px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
 @media screen and (min-width: 1024px) {
   header .nav {
     margin-top: 26px;
