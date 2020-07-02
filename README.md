@@ -6,17 +6,22 @@
 
 ## Features : :
 <a href="">Menu</a>
+<br>
 <a href="">Animaciones</a>
 
 ## Buenas Practicas : :
 <a href="">Accesibilidad</a>
+<br>
 <a href="">Loading Lazy</a>
+<br>
+<a href="">Performance</a>
+
 
 
 
 
 
 ## Proyecto Podcast Acámica : :
-<img src="landing-podcast-landing-podcast_desktop.png" alt="desktop"  height="300px" >
+<img src="landing-podcast-landing-podcast_desktop.png" alt="desktop"  height="800px" >
 
 
