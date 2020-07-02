@@ -19,6 +19,6 @@
 
 
 ## Proyecto Podcast Acámica : :
-<img src="landing-podcast-landing-podcast_desktop.png" alt="desktop"  height="800px" style="text-align:center" >
+<img src="landing-podcast-landing-podcast_desktop.png" alt="desktop"  height="800px" style="text-align: center;" >
 
 
