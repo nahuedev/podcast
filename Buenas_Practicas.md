@@ -1,4 +1,4 @@
-# Buenas Practicas : 
+# Buenas Prácticas : 
 
 Se llevaron a cabo  practicas para mejorar accesibilidad, SEO y Performance : 
 

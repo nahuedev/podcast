@@ -9,7 +9,7 @@
 <br>
 <a href="Animaciones.md">Animaciones</a>
 
-## Buenas Practicas : :
+## Buenas Prácticas : :
 <a href="Buenas_Practicas.md">Accesibilidad</a>
 <br>
 <a href="Buenas_Practicas.md">Loading Lazy</a>

@@ -4,7 +4,7 @@
 
 Para la construcion del Menu Mobile,se creo un menu hamburguesa haciendo el cual al mamomento de recibir el evento click se activa un checked , que despliega el menubar.
 
-#### Codigo : :
+#### Código : :
 
 HTML :
 ```html
