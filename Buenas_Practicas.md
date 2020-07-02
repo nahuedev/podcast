@@ -37,7 +37,7 @@ Sumando la ventaja de  "loading - lazy", se comprimieron las img usando una herr
 ### Auditoria : 
 
 - Mobile
-      <img src="mobileaudits.png" alt="">
+      <img src="mobileauditsB.png" alt="">
 
 - Desktop : 
-    <img src="desktopaudits.png" alt="">
+    <img src="desktopauditsB.png" alt="">
