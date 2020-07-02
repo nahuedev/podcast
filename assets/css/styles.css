@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -155,6 +156,10 @@ header .header__content p {
   font-size: 14px;
   letter-spacing: 0;
   line-height: 22px;
+}
+
+header .header__content p::after {
+  content: "Un podcasts que explora el mundo de la programación.Nuevos episodios, todos los jueves cada 15 días.";
 }
 
 header .header__content button.header__callaction {
@@ -601,6 +606,14 @@ footer .fotter-social a i {
     font-size: 64px;
     font-weight: 400;
   }
+  header .header__content p {
+    width: 628px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  header .header__content p::after {
+    content: "El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días. ";
+  }
   header .header__content button.header__callaction {
     width: 226px;
     height: 56px;
@@ -632,7 +645,7 @@ footer .fotter-social a i {
     margin-top: 26px;
     margin-left: 100px;
     margin-right: 100px;
-    
+    -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
     text-align: center;
   }
@@ -703,7 +716,7 @@ footer .fotter-social a i {
   .invitadas .invitadas--items {
     display: -ms-grid;
     display: grid;
-    
+    -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
   .invitadas .invitadas--items img {
