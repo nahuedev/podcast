@@ -116,7 +116,7 @@ input:checked ~ .menubar{
     padding-left: 16px;
     margin-right: auto;
     margin-left: auto;
-    z-index: -1;
+   
 
     .content--title {
       margin-top: 29px;
@@ -433,6 +433,7 @@ main.episodios {
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-name: slideInLeft;
+  z-index: -1;
 }
 
 
@@ -545,6 +546,7 @@ main.episodios {
     }
     .header__content {
       margin: 120px 200px;
+      z-index: 1;
       .content--title {
         h1 {
           /* line-height: 84px; */
@@ -578,12 +580,20 @@ main.episodios {
         box-shadow: none;
         border: none;
         cursor: pointer;
+       
 
         a {
           font-size: 18px;
           line-height: 24px;
+          
         }
+
       }
+
+    
+     
+
+
     }
   }
 

@@ -134,7 +134,6 @@ header .header__content {
   padding-left: 16px;
   margin-right: auto;
   margin-left: auto;
-  z-index: -1;
 }
 
 header .header__content .content--title {
@@ -456,6 +455,7 @@ footer .fotter-social a i {
           animation-fill-mode: both;
   -webkit-animation-name: slideInLeft;
           animation-name: slideInLeft;
+  z-index: -1;
 }
 
 .fadeInDown {
@@ -600,6 +600,7 @@ footer .fotter-social a i {
   }
   header .header__content {
     margin: 120px 200px;
+    z-index: 1;
   }
   header .header__content .content--title h1 {
     /* line-height: 84px; */
