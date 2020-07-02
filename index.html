@@ -22,24 +22,29 @@
 <body>
     <header>
 
-        <nav class="nav">
-
+    <nav class="nav  fadeInDown">
             <a href="">
-                <img src="assets/images/logo.svg" alt="">
+                <img loading="lazy"  src="assets/images/logo.svg" alt="logo blue dot">
             </a>
-            <span>
-                <i class="fas fa-bars"></i>
+           
+                <input id="burger" type="checkbox" />
+                <label for="burger"> 
+                    <span></span>
+                    <span></span>
+                    <span></span>
 
+                </label>
+                <!-- <i class="fas fa-bars"></i> -->
                 </div>
-                <ul class="menubar">
-                    <li><a href=""> Episodios</a></li>
-                    <li><a href="">Nosotros</a></li>
-                    <li><a href="">Entrevistas</a></li>
-                    <li><a href="">Tópicos</a></li>
+                <ul class="menubar fadeInDownMenu">
+                    <li><a href="#episodios"> Episodios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#invitadas">Entrevistas</a></li>
+                    <li><a href="#temas">Tópicos</a></li>
                 </ul>
-        </nav>
+    </nav>
         <div class="header__content">
-            <div class="content--title">
+            <div class="content--title slideInLeft">
                 <h1>Hello <del>Worl</del> <br>pale blue dot.</h1>
             </div>
 
@@ -55,21 +60,21 @@
         <h2>Episodios</h2>
         <section class="episodios--pods">
             <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
-                allow="encrypted-media"></iframe>
+                allow="encrypted-media" title="JS-PARTY"  ></iframe>
             <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
-                allow="encrypted-media"></iframe>
+                allow="encrypted-media" title="WEB-DEVELOPMENT"  ></iframe>
             <iframe class="iframe" src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv"
-                allow="encrypted-media"></iframe>
+                allow="encrypted-media"  title="Rework podcasts" ></iframe>
             <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"
-                allow="encrypted-media"></iframe>
+                allow="encrypted-media"  title="Ruby Podcast"></iframe>
 
         </section>
 
     </main>
 
-    <section class="nosotros">
+    <section class="nosotros" id="nosotros">
         <figure class="nosotros--phone">
-            <img src="/assets/images/phone.png" alt="">
+            <img src="/assets/images/phone.png" alt="phone" loading="lazy" >
         </figure>
         <div class="nosotros--content">
             <h2>De dónde venimos</h2>
@@ -79,40 +84,40 @@
                 vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
         </div>
     </section>
-    <section class="invitadas">
+    <section class="invitadas" id="invitadas">
         <div class="invitadas--title">
             <h2>Invitadas/os <br>estelares</h2>
         </div>
         <div class="invitadas--items">
-            <img src="/assets/images/grace-hopper.png" alt="">
-            <img src="/assets/images/Katie-Bouman.png" alt="">
-            <img src="/assets/images/Margaret_Hamilton.png" alt="">
-            <img src="/assets/images/An E.R.A.Univac 1103 computer in the 1950s.png" alt="">
-            <img src="/assets/images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
-                alt="">
-            <img src="/assets/images/susan-kare.png" alt="">
+            <img src="/assets/images/grace-hopper.png" alt="Image grace hopper" loading="lazy" >
+            <img src="/assets/images/Katie-Bouman.png" alt="Image Katie Bouman" loading="lazy">
+            <img src="/assets/images/Margaret_Hamilton.png" alt=" Image Margaret Hamilton" loading="lazy">
+            <img src="/assets/images/E.R.A.Univac1950s.png" alt="Image ERA Univac" loading="lazy" >  
+            <img src="/assets/images/Compututer-operator.png"
+                alt="Image Computer Operator" loading="lazy" >
+            <img src="/assets/images/susan-kare.png" alt=" Image Susan Kare " loading="lazy" >
 
         </div>
 
     </section>
 
-    <section class="temas">
+    <section class="temas" id="temas">
             <div class="temas--title"><h2>Algunos de nuestros temas</h2></div>
             <div class="temas--iconos" >
             <div class="tema-desktop" >
-                <img src="/assets/images/icon1.svg" alt="trabajo remoto">
+                <img src="/assets/images/icon1.svg" alt="trabajo remoto" loading="lazy" >
                     <p>Trabajo Remoto</p>
             </div>
             <div  class="tema-desktop" >
-                <img src="/assets/images/icon2.svg" alt="trabajo remoto">
+                <img src="/assets/images/icon2.svg" alt="trabajo remoto" loading="lazy" >
                     <p>Repensando la<br>programación</p>
             </div>
             <div class="tema-desktop"  >
-                <img src="/assets/images/icon3.svg" alt="trabajo remoto">
+                <img src="/assets/images/icon3.svg" alt="trabajo remoto" loading="lazy" >
                     <p>Bases de código</p>
             </div>
             <div class="tema-desktop" >
-                <img src="/assets/images/icon4.svg" alt="trabajo remoto">
+                <img src="/assets/images/icon4.svg" alt="trabajo remoto"  loading="lazy" >
                     <p>Seguridad informática</p>
             </div>
         </div>
@@ -126,14 +131,13 @@
         <button class="novedades__callaction">ESCUCHÁ LOS EPISODIOS</button>
     </section>
     <footer>
-
         <h2>© 2019-Hello blue pale dot</h2> 
         <div class="fotter-social">
-            <a href="https://www.spotify.com/ar/" target="_blank"><i class="fab fa-spotify" id="spotify"></i></a>
-            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" id="instagram"></i></a>
-            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter" id="twitter"></i></a>
-            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook" id="facebook"></i></a>
-            <a href="https://web.telegram.org/" target="_blank"><i class="fab fa-telegram" id="telegram"></i></a>
+            <a href="https://www.spotify.com/ar/" target="_blank" rel="noreferrer" aria-label="Ir Spotify"   ><i class="fab fa-spotify" id="spotify"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Ir a Instagram" ><i class="fab fa-instagram" id="instagram"></i></a>
+            <a href="https://twitter.com/" target="_blank" rel="noreferrer" aria-label="Ir a Twitter" ><i class="fab fa-twitter" id="twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Ir a Facebook" ><i class="fab fa-facebook" id="facebook"></i></a>
+            <a href="https://web.telegram.org/" target="_blank" rel="noreferrer" aria-label="Ir a Telegram" ><i class="fab fa-telegram" id="telegram"></i></a>
           </div>
     </footer>
 
