@@ -25,49 +25,49 @@ Se tomaron animaciones de  <a href="https://animate.style/">Animate Syle</a>.
     ```
 - fadeInDown : 
 
-```css
-        .fadeInDownMenu{
-            animation-duration: .1s;
-            animation-fill-mode: both;
-            animation-name: fadeInDownMenu;
-            }
-```
-
-```css
-        @keyframes fadeInDownMenu {
-            from{
-                opacity: 0;
-                transform: translate3d(0,-100%,0);
-            }
-                to{
-                    opacity: 1;
-                    transform: translate3d(0,0,0) ;
+    ```css
+            .fadeInDownMenu{
+                animation-duration: .1s;
+                animation-fill-mode: both;
+                animation-name: fadeInDownMenu;
                 }
-            }
-```
+    ```
+
+    ```css
+            @keyframes fadeInDownMenu {
+                from{
+                    opacity: 0;
+                    transform: translate3d(0,-100%,0);
+                }
+                    to{
+                        opacity: 1;
+                        transform: translate3d(0,0,0) ;
+                    }
+                }
+    ```
 
 - slideInLeft
 
-```css
-                .slideInLeft{
-                animation-duration: 1s;
-                animation-fill-mode: both;
-                animation-name: slideInLeft;
-                }
+    ```css
+                    .slideInLeft{
+                    animation-duration: 1s;
+                    animation-fill-mode: both;
+                    animation-name: slideInLeft;
+                    }
 
-```
+    ```
 
-```css
-               
-@keyframes slideInLeft {
-  from {
-    transform: translate3d(-100%, 0, 0);
-    visibility: visible;
-  }
+    ```css
+                
+    @keyframes slideInLeft {
+    from {
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
 
-  to {
-    transform: translate3d(0, 0, 0);
-  }
-}
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+    }
 
-```
+    ```

@@ -10,11 +10,11 @@
 <a href="Animaciones.md">Animaciones</a>
 
 ## Buenas Practicas : :
-<a href="">Accesibilidad</a>
+<a href="Buenas_practicas.md">Accesibilidad</a>
 <br>
-<a href="">Loading Lazy</a>
+<a href="Buenas_practicas.md">Loading Lazy</a>
 <br>
-<a href="">Performance</a>
+<a href="Buenas_practicas.md">Performance</a>
 
 
 
