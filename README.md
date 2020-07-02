@@ -5,7 +5,7 @@
 
 
 ## Features : :
-<a href="">Menu</a>
+<a href="Features.md">Menu</a>
 <br>
 <a href="">Animaciones</a>
 
@@ -18,10 +18,7 @@
 
 
 
-
-
-
 ## Proyecto Podcast Acámica : :
-<img src="landing-podcast-landing-podcast_desktop.png" alt="desktop"  height="800px" >
+<img src="landing-podcast-landing-podcast_desktop.png" alt="desktop"  height="800px" style="text-align:center" >
 
 
