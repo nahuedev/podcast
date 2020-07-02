@@ -1,14 +1,14 @@
 # Buenas Prácticas : 
 
-Se llevaron a cabo  practicas para mejorar accesibilidad, SEO y Performance : 
+Se llevaron a cabo  prácticas para mejorar Accesibilidad, SEO y Performance : 
 
 ### Accesibilidad : 
 
 A cada una de las imagenes del sitio se le agregaron los atributos : 
 
-- alt: Aqui se incorporo una descripcion o nombre de la imagen.
+- alt: Aqui se incorporo una descripción o nombre de la imagen.
 
-- loadiin: Este atributo permite que cada img del sitio se  cargue si estamos en una porcion del sitio que hay img, es decir cuando se hace el get a la url , no se cargan automaticamente todas las imagenes del sitio sino las que se necesitan mostrar.
+- loadiin: Este atributo permite que cada img del sitio se  cargue si estamos en una porción del sitio que hay img, es decir cuando se hace el get a la url , no se cargan automáticamente todas las imagenes del sitio sino las que se necesitan mostrar.
 Para que esto funcione el valor del atributo debe ser lazy.
 
     ```html
@@ -22,7 +22,7 @@ Para que esto funcione el valor del atributo debe ser lazy.
          <a href="https://www.spotify.com/ar/" target="_blank" rel="noreferrer" aria-label="Ir Spotify"   ><i class="fab fa-spotify" id="spotify"></i></a>
             <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Ir a Instagram" ><i class="fab fa-instagram" id="instagram"></i></a>
     ```
-- title : Este atributo se incorporo a los iframe de Spotify. Permite describir el mismo ayudando a los lectores de pantalla.
+- title : Este atributo se incorporó a los iframe de Spotify. Permite describir a los  mismos ayudando a los lectores de pantalla.
     ```html
           <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
                 allow="encrypted-media" title="JS-PARTY"  ></iframe>
