@@ -116,7 +116,7 @@ input:checked ~ .menubar{
     padding-left: 16px;
     margin-right: auto;
     margin-left: auto;
-    z-index: -1;
+   
 
     .content--title {
       margin-top: 29px;
@@ -139,7 +139,12 @@ input:checked ~ .menubar{
       font-size: 14px;
       letter-spacing: 0;
       line-height: 22px;
+    
     }
+    p::after{
+      content: "Un podcasts que explora el mundo de la programación.Nuevos episodios, todos los jueves cada 15 días.";
+    }
+
 
     button.header__callaction {
       width: 100%;
@@ -428,6 +433,7 @@ main.episodios {
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-name: slideInLeft;
+  z-index: -1;
 }
 
 
@@ -540,13 +546,29 @@ main.episodios {
     }
     .header__content {
       margin: 120px 200px;
+      z-index: 1;
       .content--title {
         h1 {
           /* line-height: 84px; */
           font-size: 64px;
           font-weight: 400;
         }
+
+      
       }
+
+      p{
+        width: 628px;
+        font-size: 16px;
+        line-height: 24px;
+        
+      } 
+      p::after{
+        content: "El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días. ";
+      }
+
+
+
 
       button.header__callaction {
         width: 226px;
@@ -558,12 +580,20 @@ main.episodios {
         box-shadow: none;
         border: none;
         cursor: pointer;
+       
 
         a {
           font-size: 18px;
           line-height: 24px;
+          
         }
+
       }
+
+    
+     
+
+
     }
   }
 
